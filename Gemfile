@@ -3,6 +3,10 @@ source 'https://rubygems.org'
 ruby '>= 2.4.0', '< 2.8.0'
 gem 'bundler', '>= 1.12.0'
 
+
+gem 'rack_middleware_metrics', '~> 0.0.1'
+
+
 gem 'rails', '5.2.4.4'
 gem 'sprockets', '~> 3.7.2' if RUBY_VERSION < '2.5'
 gem 'rouge', '~> 3.24.0'

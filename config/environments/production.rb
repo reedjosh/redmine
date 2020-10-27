@@ -2,6 +2,8 @@
 
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb
+  #
+  config.rack_middleware_metrics.logpath = Rails.root / 'blah2much.csv'
 
   # Code is not reloaded between requests.
   config.cache_classes = true
